@@ -7,14 +7,20 @@
   </head>
   <body>
     <header>
-      <form>
-        <input type="search" placeholder="Explore a city!" required />
+      <form class="search-form" id="search-form">
+        <input
+          type="search"
+          placeholder="Explore a city!"
+          required
+          id="search-form-input"
+          class="search-form-input"
+        />
         <input type="submit" value="Search" />
       </form>
     </header>
     <main>
       <div>
-        <h1>Jacksonville</h1>
+        <h1 class="weather-app-city" id="weather-app-city">Jacksonville</h1>
         <p>
           Wednesday 22:15, clear sky
           <br />
@@ -37,4 +43,5 @@
       >hosted on Netlify.</a
     >
   </footer>
+  <script src="src/index.js"></script>
 </html>
